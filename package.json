@@ -1,7 +1,10 @@
 {
+  "homepage": "https://artumi.github.io/PerioImplantChart/",
   "name": "perio-implant-chart",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.1.1",
     "vite": "^4.3.9"
   },
   "keywords": [],
