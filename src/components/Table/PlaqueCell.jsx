@@ -10,7 +10,7 @@ export default function PlaqueCell() {
   const SToggleButton = styled(ToggleButton)({
     "&.Mui-selected, &.Mui-selected:hover": {
       color: "white",
-      backgroundColor: "#42a5f5",
+      backgroundColor: "#311b92",
     },
   });
 

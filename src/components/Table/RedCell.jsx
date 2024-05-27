@@ -10,7 +10,7 @@ export default function RedCell() {
   const SToggleButton = styled(ToggleButton)({
     "&.Mui-selected, &.Mui-selected:hover": {
       color: "white",
-      backgroundColor: "#ef5350",
+      backgroundColor: "#e91e63",
     },
   });
 
