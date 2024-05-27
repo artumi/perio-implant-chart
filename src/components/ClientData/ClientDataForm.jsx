@@ -10,7 +10,7 @@ export default function ClientDataForm() {
     <Box
       component="form"
       sx={{
-        "& > :not(style)": { m: 1, width: "70ch" },
+        "& > :not(style)": { m: 1, width: "125ch" },
       }}
       noValidate
       autoComplete="off"
@@ -37,6 +37,20 @@ export default function ClientDataForm() {
         <TextField
           className="dateInput"
           label="Date"
+          id="outlined-size-small"
+          defaultValue=""
+          size="small"
+        />
+        <TextField
+          className="dateInput"
+          label="Procedure"
+          id="outlined-size-small"
+          defaultValue=""
+          size="small"
+        />
+        <TextField
+          className="dateInput"
+          label="Dentist/Dental Hygienist"
           id="outlined-size-small"
           defaultValue=""
           size="small"
