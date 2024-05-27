@@ -2,11 +2,17 @@
   background-color: #ffffff;
   border: 1px solid;
   border-radius: 3px;
+  width: 100%;
+  margin: auto;
 }
 
 .notesColumn {
   max-width: 60px;
   height: 60px;
+}
+.emptyColumn {
+  width: 5px;
+  border-width: 0;
 }
 
 .cell {
@@ -15,6 +21,7 @@
 
 .labelTitle {
   text-align: right;
+  max-width: 60px;
 }
 
 .toothNumber {
