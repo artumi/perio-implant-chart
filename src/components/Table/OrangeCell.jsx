@@ -8,7 +8,7 @@ export default function OrangeCell() {
   const SToggleButton = styled(ToggleButton)({
     "&.Mui-selected, &.Mui-selected:hover": {
       color: "white",
-      backgroundColor: "#ff5722",
+      backgroundColor: "#ffa726",
     },
   });
 
