@@ -11,10 +11,6 @@ const App = () => {
     content: () => componentRef.current,
   });
 
-  // const [selectedTopic, setSelectedTopic] = useState({
-  //   value: "implants",
-  // });
-
   const [selectedTopic, setSelectedTopic] = useState("implants");
 
   function handleSelect(selectedButton) {
@@ -48,7 +44,14 @@ const App = () => {
             </>
           }
         ></ChartsMenuTabs>
-        <ParadontalApp ref={componentRef} />
+
+        {selectedTopic === "implants" ? (
+          <ParadontalApp ref={componentRef} />
+        ) : (
+          <>Nothing here yet</>
+        )}
+
+        {/* <ParadontalApp ref={componentRef} /> */}
       </main>
     </>
   );
