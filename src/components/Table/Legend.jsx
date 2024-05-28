@@ -2,12 +2,13 @@ import "./table.css";
 import LegendBody from "./LegendBody";
 import LegendHead from "./LegendHead";
 import LegendFooter from "./LegendFooter";
+import LegendBodyMucosa from "./LegendBodyMucosa";
 
-export default function Legend() {
+export default function Legend({ chartType }) {
   return (
     <table id="periodontalTable">
       <LegendHead />
-      <LegendBody />
+      {chartType === "mucosa" ? <LegendBodyMucosa /> : <LegendBody />}
       <LegendFooter />
     </table>
   );

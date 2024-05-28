@@ -4,6 +4,7 @@ import { useReactToPrint } from "react-to-print";
 import React, { useRef, useState, useCallback } from "react";
 import ChartsMenuTabs from "./components/ChartsMenuTabs.jsx";
 import MenuTabButton from "./components/MenuTabButton.jsx";
+import { MucosaApp } from "./components/MucosaApp.jsx";
 
 const App = () => {
   const componentRef = useRef();
@@ -48,7 +49,7 @@ const App = () => {
         {selectedTopic === "implants" ? (
           <ParadontalApp ref={componentRef} />
         ) : (
-          <>Nothing here yet</>
+          <MucosaApp ref={componentRef} />
         )}
 
         {/* <ParadontalApp ref={componentRef} /> */}
