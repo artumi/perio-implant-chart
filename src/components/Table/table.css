@@ -24,6 +24,7 @@
   max-width: 50px;
   font-size: 0.875em;
   font-weight: bold;
+  color: gray;
 }
 
 .toothNumber {
@@ -84,7 +85,7 @@ textarea {
   color: #0d0119;
   border-style: dotted;
   border-width: 0px 1px 0px 0px;
-  font-size: small;
+  font-size: x-small;
   font-weight: bold;
   outline: none;
   height: 25px;
