@@ -1,4 +1,4 @@
-import "./table.css";
+import "../table.css";
 import * as React from "react";
 
 export default function ToothNumberCell({ toothNumber }) {

@@ -1,4 +1,4 @@
-import "./table.css";
+import "../table.css";
 import Checkbox from "@mui/material/Checkbox";
 import Add from "@mui/icons-material/Add";
 import Remove from "@mui/icons-material/Remove";

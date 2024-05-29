@@ -1,10 +1,10 @@
 import "./table.css";
-import LabelCell from "./LabelCell";
-import NotesCell from "./NotesCell";
-import InputCell from "./InputCell";
-import CheckBoxCell from "./CheckBoxCell";
-import NumberInputCell from "./NumberInputCell";
-import ToothNumberCell from "./ToothNumberCell";
+import LabelCell from "./Cells/LabelCell";
+import NotesCell from "./Cells/NotesCell";
+import InputCell from "./Cells/InputCell";
+import CheckBoxCell from "./Cells/CheckBoxCell";
+import NumberInputCell from "./Cells/NumberInputCell";
+import ToothNumberCell from "./Cells/ToothNumberCell";
 
 export default function LegendBodyMucosa() {
   return (

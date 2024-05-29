@@ -1,4 +1,4 @@
-import "./table.css";
+import "../table.css";
 
 export default function InputCell() {
   return (
