@@ -10,6 +10,7 @@
   max-width: 60px;
   height: 60px;
 }
+
 .emptyColumn {
   width: 5px;
   border-width: 0;
@@ -24,7 +25,7 @@
   max-width: 50px;
   font-size: 0.875em;
   font-weight: bold;
-  color: gray;
+  background-color: #eee;
 }
 
 .toothNumber {
@@ -85,7 +86,7 @@ textarea {
   color: #0d0119;
   border-style: dotted;
   border-width: 0px 1px 0px 0px;
-  font-size: x-small;
+  font-size: small;
   font-weight: bold;
   outline: none;
   height: 25px;
