@@ -4,7 +4,7 @@ export default function LegendHead() {
   return (
     <thead>
       <tr>
-        <th colspan="29">
+        <th colSpan="29">
           <ClientDataForm />
         </th>
       </tr>

@@ -7,9 +7,9 @@ export default function NotesCelln() {
         name="NotesText"
         cols="8"
         rows="3"
-        spellcheck="false"
-        autocorrect="off"
-        autocapitalize="off"
+        spellCheck="false"
+        autoCorrect="off"
+        autoCapitalize="off"
       ></textarea>
     </td>
   );

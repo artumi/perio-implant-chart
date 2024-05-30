@@ -4,8 +4,6 @@ import Box from "@mui/material/Box";
 import "../Table/table.css";
 
 export default function ClientDataForm() {
-  const ariaLabel = { "aria-label": "description" };
-
   return (
     <Box
       component="form"

@@ -2,7 +2,8 @@
   background-color: #ffffff;
   border: 1px solid;
   border-radius: 3px;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -76,7 +77,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0);
   color: #0d0119;
   border: none;
-  font-size: x-small;
+  font-size: small;
   outline: none;
   height: 30px;
   max-width: 60px;
