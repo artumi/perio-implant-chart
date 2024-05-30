@@ -5,6 +5,7 @@ export default function NotesCelln() {
     <td className="notesColumn">
       <textarea
         name="NotesText"
+        className="notesText"
         cols="8"
         rows="3"
         spellCheck="false"
