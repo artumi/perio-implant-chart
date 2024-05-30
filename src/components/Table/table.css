@@ -28,6 +28,10 @@
   background-color: #eee;
 }
 
+.toothRow {
+  line-height: 30px;
+}
+
 .toothNumber {
   text-align: center;
 }

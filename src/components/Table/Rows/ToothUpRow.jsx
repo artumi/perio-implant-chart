@@ -3,8 +3,8 @@ import ToothNumberCell from "../Cells/ToothNumberCell";
 
 export default function ToothUpRow() {
   return (
-    <tr>
-      <LabelCell />
+    <tr className="toothRow">
+      <LabelCell multiLabel={true} upTitle="Buccal" downTitle="Palatal" />
       <ToothNumberCell toothNumber="18" />
       <ToothNumberCell toothNumber="17" />
       <ToothNumberCell toothNumber="16" />
