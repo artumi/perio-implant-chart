@@ -12,6 +12,10 @@
   height: 60px;
 }
 
+.notesText {
+  font-size: small;
+}
+
 .emptyColumn {
   width: 5px;
   border-width: 0;
