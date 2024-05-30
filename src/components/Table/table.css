@@ -39,6 +39,8 @@
 
 .toothNumber {
   text-align: center;
+  font-size: large;
+  font-weight: 700;
 }
 
 .checkboxCell {
