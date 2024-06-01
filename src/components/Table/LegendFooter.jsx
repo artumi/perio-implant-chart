@@ -3,7 +3,7 @@ export default function LegendFooter() {
     <tfoot>
       <tr>
         <th colSpan="29">
-          <p>Copyright (c) 2024 www.perioimplantchart.com</p>
+          <p>Copyright (c) 2024 Dr. Anastasia Klein</p>
         </th>
       </tr>
     </tfoot>
