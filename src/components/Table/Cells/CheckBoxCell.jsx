@@ -14,6 +14,7 @@ export default function CheckBoxCell() {
         <Checkbox
           {...label}
           icon={<Remove />}
+          size="small"
           checkedIcon={<Add />}
           sx={{
             color: grey[500],

@@ -3,7 +3,7 @@ export default function LegendFooter() {
     <tfoot>
       <tr>
         <th colSpan="29">
-          <p>Copyright (c) 2024 Dr. Anastasia Klein</p>
+          <p>Copyright © 2024 Dr. Anastasia Klein. All rights reserved. </p>
         </th>
       </tr>
     </tfoot>
