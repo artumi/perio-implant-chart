@@ -14,7 +14,7 @@ export default function NumberInputCell() {
         className="numberField"
         type="text"
         pattern="\d*"
-        maxlength="2"
+        maxLength="2"
         onKeyPress={(event) => {
           if (!/[0-9]/.test(event.key)) {
             event.preventDefault();
@@ -26,7 +26,7 @@ export default function NumberInputCell() {
         className="numberField"
         type="text"
         pattern="\d*"
-        maxlength="2"
+        maxLength="2"
         onKeyPress={(event) => {
           if (!/[0-9]/.test(event.key)) {
             event.preventDefault();
@@ -38,7 +38,7 @@ export default function NumberInputCell() {
         className="numberField numberFieldRight"
         type="text"
         pattern="\d*"
-        maxlength="2"
+        maxLength="2"
         onKeyPress={(event) => {
           if (!/[0-9]/.test(event.key)) {
             event.preventDefault();

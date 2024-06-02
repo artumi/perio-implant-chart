@@ -91,6 +91,10 @@ textarea {
   -webkit-transition: height 1s;
 }
 
+.surgery {
+  font-size: x-small;
+}
+
 .numberField {
   text-align: center;
   background-color: rgba(0, 0, 0, 0);

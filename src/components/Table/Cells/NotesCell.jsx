@@ -6,7 +6,7 @@ export default function NotesCelln() {
       <textarea
         name="NotesText"
         className="notesText"
-        cols="8"
+        cols="7"
         rows="3"
         spellCheck="false"
         autoCorrect="off"

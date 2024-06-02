@@ -51,8 +51,6 @@ const App = () => {
         ) : (
           <MucosaApp ref={componentRef} />
         )}
-
-        {/* <ParadontalApp ref={componentRef} /> */}
       </main>
     </>
   );

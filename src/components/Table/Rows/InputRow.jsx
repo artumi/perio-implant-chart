@@ -5,23 +5,23 @@ export default function InputRow({ title }) {
   return (
     <tr>
       <LabelCell labelTitle={title} />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
       <td className="emptyColumn"></td>
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
-      <InputCell />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
+      <InputCell title={title} />
     </tr>
   );
 }
